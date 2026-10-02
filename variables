@@ -1,0 +1,9 @@
+PORT=3000
+JWT_SECRET=change-me-to-a-long-random-secret
+APP_BASE_URL=http://localhost:3000
+
+# Postgres — your database connection
+DATABASE_URL="postgresql://neondb_owner:npg_rnMP5sdz1BLU@ep-young-butterfly-zan7m5gk-pooler.c-2.eu-west-2.aws.neon.tech/neondb?channel_binding=require&sslmode=require"
+DATABASE_URL_POOLED="postgresql://neondb_owner:npg_rnMP5sdz1BLU@ep-young-butterfly-zan7m5gk-pooler.c-2.eu-west-2.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
+DATABASE_URL_UNPOOLED="postgresql://neondb_owner:npg_rnMP5sdz1BLU@ep-young-butterfly-zan7m5gk.c-2.eu-west-2.aws.neon.tech/neondb?channel_binding=require&sslmode=require"
+NEON_BRANCH=production
